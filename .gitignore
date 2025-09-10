@@ -5,7 +5,9 @@ __pycache__/
 *.json
 # C extensions
 *.so
-
+*.safetensors
+*.pt
+*.bin
 # Distribution / packaging
 .Python
 build/
