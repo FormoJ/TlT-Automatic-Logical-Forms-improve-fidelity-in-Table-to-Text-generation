@@ -32,7 +32,7 @@ def read_arguments_train():
     parser.add_argument('--max_seq_length', default=512, type=int)
     parser.add_argument('--value_cases_in_extra', default='case1b;case2;case3', type=str)
 
-    parser.add_argument('--num_epochs', default=50.0, type=float)
+    parser.add_argument('--num_epochs', default=5.0, type=float)
 
     # training & optimizer configuration
     parser.add_argument('--lr_base', default=5e-5, type=float)  # lr_connection 1e-4 o 5e-5 (antes 1e-3)
